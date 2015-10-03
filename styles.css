@@ -1,0 +1,136 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+/* HEADING */
+
+.header-content {
+  height: 100%;
+}
+
+header {
+  height: 25vw;
+  max-height: 150px;
+  width: 100%;
+}
+
+.udacity-logo {
+  max-height: 100%;
+  width: 20%;
+  float: left;
+}
+
+h1 {
+  float: left;
+  padding-top: 5%;
+  width: 80%;
+  font-weight: normal;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+.my-picture:hover {
+	-webkit-box-shadow: 0px 0px 120px -13px #FFF600;
+	box-shadow: 0px 0px 120px -13px #FFF600;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 380px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 464px) and (min-width: 381px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 465px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .header-content {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .header-content {
+    padding-top: 5px;
+  }
+}
+
+
+/* MAIN SECTIONS */
+
+.hero {
+	padding: 1em;
+	max-width: 100%;
+	background-color: #4a5f70;
+	color: white;
+	height: 383px;
+	background-image: -webkit-linear-gradient(90deg,rgba(74,95,112,1.00) 0%,rgba(89,108,124,1.00) 100%);
+	background-image: -moz-linear-gradient(90deg,rgba(74,95,112,1.00) 0%,rgba(89,108,124,1.00) 100%);
+	background-image: -o-linear-gradient(90deg,rgba(74,95,112,1.00) 0%,rgba(89,108,124,1.00) 100%);
+	background-image: linear-gradient(0deg,rgba(74,95,112,1.00) 0%,rgba(89,108,124,1.00) 100%);
+}
+
+.my-picture {
+	display: block;
+	margin: 0 auto 10px;
+	width: max-width;
+	border: 2px solid white;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 30%;
+}
+
+.iama {
+	max-width: 100%;
+	color: #969696;
+	letter-spacing: 0.05em;
+	font-size: 20px;
+	margin-top: -5%;
+	margin-right: 0%;
+	margin-left: 0%;
+	margin-bottom: 1%;
+	line-height: 0px;
+	display: block;
+}
+
+.my-info {
+	max-width: 100%;
+	font-size: 57px;
+	margin-top: 2%;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 9%;
+}
+
+.my-info:last-of-type {
+  margin: 0;
+}
+
+.my-name {
+	color: white;
+	font-size: xx-large;
+	margin-bottom: 12%;
+	display: block;
+	margin-top: 2%;
+}
+
+.about-me {
+  padding: 1em;
+}
